@@ -65,7 +65,7 @@ trait AuditableTrait
     public function getCreatedByNameAttribute()
     {
         if ($this->{$this->getCreatedByColumn()}) {
-            return $this->creator->first_name . ' ' . $this->creator->last_name;
+            return $this->creator->email;
         }
 
         return '';
@@ -91,7 +91,7 @@ trait AuditableTrait
     public function getUpdatedByNameAttribute()
     {
         if ($this->{$this->getUpdatedByColumn()}) {
-            return $this->updater->first_name . ' ' . $this->updater->last_name;
+            return $this->updater->email;
         }
 
         return '';
