@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Auditable;
+namespace Ricardo\Auditable;
 
 use Illuminate\Database\Eloquent\Model;
 
