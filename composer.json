@@ -1,18 +1,15 @@
 {
-  "name": "yajra/laravel-auditable",
+  "name": "ricardom/audit-laravel",
   "description": "A simple Laravel user auditing package for Eloquent Model.",
   "keywords": [
-    "yajra",
-    "laravel",
-    "auditable"
+    "ricardo"
   ],
-  "homepage": "https://github.com/yajra/laravel-auditable",
+  "homepage": "https://github.com/ricardomartos/audit-laravel",
   "license": "MIT",
   "authors": [
     {
-      "name": "Arjay Angeles",
-      "email": "aqangeles@gmail.com",
-      "homepage": "http://yajrabox.com",
+      "name": "Ricardo Martos",
+      "email": "ricardomartoslecea@gmail.com",
       "role": "Developer"
     }
   ],
@@ -26,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Yajra\\Auditable\\": "src"
+      "Ricardo\\Auditable\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Yajra\\Auditable\\Test\\": "tests"
+      "Ricardo\\Auditable\\Test\\": "tests"
     }
   },
   "scripts": {
@@ -43,7 +40,7 @@
     },
     "laravel": {
       "providers": [
-        "Yajra\\Auditable\\AuditableServiceProvider"
+        "Ricardo\\Auditable\\AuditableServiceProvider"
       ]
     }
   }
