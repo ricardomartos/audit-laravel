@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Auditable;
+namespace Ricardo\Auditable;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\ServiceProvider;
