@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Auditable;
+namespace Ricardo\Auditable;
 
 use App\User;
 use Illuminate\Database\Eloquent\Builder;
