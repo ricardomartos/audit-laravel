@@ -3,6 +3,7 @@
 namespace Ricardo\Auditable;
 
 use Illuminate\Database\Eloquent\Model;
+use Auth;
 
 class AuditableTraitObserver
 {
@@ -29,7 +30,7 @@ class AuditableTraitObserver
      */
     protected function getAuthenticatedUserId()
     {
-        return auth()->check() ? auth()->email() : 0;
+        return auth()->check() ? Auth::user()->email : 0;
     }
 
     /**
